@@ -1,0 +1,14 @@
+version: '0.1'
+services:
+  web:
+    build: .
+    ports:
+    - "8080:8080"
+    links:
+    - redis
+  redis:
+    image: redis:alpine
+    expose:
+      - "6379"
+    ports:
+      - "6379:6379"    
