@@ -12,7 +12,7 @@ This is an Golang HTTP Server that is having 2 endpoints for:
 First you need to download the repository:
 
 ```
-git clone https://github.com/Chobito/golang-test.git
+git clone https://github.com/antagme/golang-test-2020.git
 ```
 
 ### Docker redis + go in local ( TestMode )
